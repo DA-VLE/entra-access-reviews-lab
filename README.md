@@ -61,6 +61,8 @@ A test environment was prepared in Microsoft Entra ID:
 - a security group was created,
 - multiple test users were added,
 - a reviewer was defined for the access review.
+<img width="1106" height="529" alt="groupe" src="https://github.com/user-attachments/assets/273215de-5176-48e5-b685-54649a1b6921" />
+<img width="1123" height="319" alt="membres" src="https://github.com/user-attachments/assets/d6514c33-f431-40a8-9ab2-64a9b7653e99" />
 
 ### 2. Access Review Configuration
 An **Access Review** was created from the Entra portal using the **Resource review** template.
@@ -73,12 +75,17 @@ Main settings included:
 - reviewer: **selected user** (the reviewer could be the superior, the manager or the user himself)
 - justification required
 - notifications and reminders enabled
+<img width="678" height="458" alt="config2" src="https://github.com/user-attachments/assets/5051aedf-41c7-4d25-a25a-e6928716b77d" />
+<img width="692" height="832" alt="config3" src="https://github.com/user-attachments/assets/6043f6da-8651-42f3-8645-29713e1e3066" />
 
 ### 3. Review Execution
 The reviewer accessed the review and made decisions for each user:
 
 - **Approve** to keep access
 - **Deny** to remove access
+
+<img width="1261" height="529" alt="review_execution" src="https://github.com/user-attachments/assets/044027f8-7fcc-4c9f-a612-94b63f7a1351" />
+
 
 This step highlighted an important governance concept: the review decision is made by the reviewer, while Microsoft Entra may also provide **recommendations** based on signals such as recent sign-in activity.
 
@@ -87,13 +94,7 @@ Once the review was completed, the results were exported in **CSV** format and i
 
 The exported data included:
 
-- reviewed user name
-- UPN
-- decision outcome
-- review date
-- reason / justification
-- reviewer identity
-- applied by information
+<img width="1241" height="98" alt="image" src="https://github.com/user-attachments/assets/53118fd9-1019-4798-a735-98d8ff181a89" />
 
 ---
 
